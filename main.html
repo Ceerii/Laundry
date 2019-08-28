@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-auth.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/c51f600abd.js"></script>
+    <link href="css/index.css" rel="stylesheet">
+    
+    <title>Wahly</title>
+</head>
+<body>
+<div class="container">
+             
+   
+    <div class="navigation-bar" >
+      <h1 class='navigation-title'>Washly</h1>
+      <div class="navigation-user-name">
+        <p>Hi <span class="names"></span></p>
+      </div>
+
+      <div class="navigation-content">
+          <a href="#">About</a>
+          <a href="#">FAQ</a>
+          <a href="#">Profile</a>
+      </div>
+  </div>
+                          
+                
+                
+    <div class="search-container"> 
+      <h2 class="search-container-text">Find the Closest <span class="blue-text">Laundry Service</span> Around You</h2>
+      <div class="search-input">
+          <input id="location" class="input-text" type="text" placeholder="Enter your location to see laundry outlets close to you"></input>
+          <i class="fas fa-map-marker-alt" id="searchIcon"></i>
+      </div>
+      <button id="search-container-button" class="search-container-button" >Search</button>
+  </div>
+
+      
+  <div class="pic">
+    <div ><img  class="picture1" src="img/667220191440.png"></div>
+    <div><img  class="picture2" src="img/Group.png"></div>
+</div>
+           
+<ul class="terms">
+    <li><a>Privacy</a></li>
+    <li><a>Terms</a></li>
+    <li><a>Feedback</a></li>
+    <li>Copyright 2019 Washly</li>
+</ul>
+           </div>
+          
+           
+            <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5Xh2zPVQMGJZM5o82au4yP5Qk0kA8nSA&libraries=places"></script>
+            <script src="./js/autocomplete.js"></script>
+            <script src="/js/geolocation.js"></script>
+            <script src="/js/modal.js"></script>
+            <script src="/js/search.js"></script>
+    </body>
+</html>
